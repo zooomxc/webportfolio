@@ -6,9 +6,11 @@
 }
 body{
 	font-family: 'Fira Sans', sans-serif;
+	font-size: 20px;
 }
 #navbar{
 	background-color: #06283D;
+	top: 0;
 }
 #logo{
 	height: 60px;
@@ -17,4 +19,38 @@ body{
 #header{
 	background-color: #DFF6FF;
 	margin-top: 90px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	min-height: 500px;
+}
+#greeting{
+	font-family: 'Mitr', sans-serif;;
+}
+#skills-page{
+	background-color: #47B5FF;
+}
+#card{
+	background-color: #DFF6FF;
+}
+#skills{
+	background-color: lightblue;
+	padding-top: 20px;
+}
+#gallery{
+	background-color: skyblue;
+	padding: 0;
+}
+.img-proj{
+	width: 150px;
+	height: 150px;
+	border: 5px solid steelblue;
+	border-radius: 25px;
+	margin-bottom: 15px;
+}
+#contact{
+	background-color: lightblue;
+}
+#footer{
+	background-color: #06283D;
+	bottom: 0;
 }
